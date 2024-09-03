@@ -1,6 +1,15 @@
 ## Decorator
-
+함수나 메소드에 적용되어 기능을 확장하거나 변경하는 역할을 한다. 일반적으로 '@' 기호와 함께 사용되며, 함수 또는 메소드 상단에 위치한다. 데코레이터는 기본적으로 함수를 인자로 받고, 또 다른 함수를 반환하는 고자함수이다.
 <br/><br/>
+### 사용하는 이유
+1) 코드 재사용성 향상
+2) 코드 가독성 향상
+3) 관심사 분리
+### 주의 사항
+* 함수의 메타데이터가 변경될 수 있다. 실행 순서에 주의해야 한다.
+
+### Reference
+* [데코레이터(decorator)란?](https://ctkim.tistory.com/entry/%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0decorator)
 ***
 ## *args, **kwargs
 *args : (positional) arguments
@@ -19,3 +28,4 @@
 ### Reference
 * [파이썬에서 *args, **kwargs는 무엇일까?](https://legitcode267.tistory.com/13)
 * [*args와 **kwargs가 뭐예요?](https://velog.io/@clueless_coder/%ED%8C%8C%EC%9D%B4%EC%8D%AC-args-%EC%99%80-kwargs-%EA%B0%80-%EB%AD%90%EC%98%88%EC%9A%94)
+* [예제코드 참고](https://brunch.co.kr/@princox/180)
