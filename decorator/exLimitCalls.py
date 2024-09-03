@@ -28,3 +28,9 @@ for i in range(5):
         example_func()
     except Exception as e:
         print(e)
+
+"""
+example_func 함수에서 데코레이터를 적용하여 실행하면, 최대 3번까지 실행할 수 있다.
+for 루프에서 5번 호출하지만, 3번의 호출이 정상적으로 실행되고,
+그 이후 2번은 예외가 발생하므로, 예외 메시지를 출력한다.
+"""
